@@ -1,0 +1,34 @@
+.banner-container {
+    width: 100%;
+    height: 250px;
+}
+
+/* button dots */
+.banner-carousel-dots > .react-multi-carousel-dot button {
+    background: #BDBDBD;
+    border: none;
+    margin: 0 7px;
+}
+
+.banner-carousel-dots > .react-multi-carousel-dot--active button {
+    background: #F8475F;
+    border: none;
+}
+
+.banner-carousel-item > img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) { 
+    .banner-container {
+        width: 100%;
+        height: 450px;
+    }
+
+    .banner-carousel-item > img {
+        height: 450px;
+        object-fit: fill;
+    }
+}

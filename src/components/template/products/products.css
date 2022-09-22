@@ -1,0 +1,75 @@
+.products-container {
+    padding: 30px;
+}
+
+.products-divider {
+    margin-top: 10px;
+    border: 2px solid #C0C0C0;
+    width: 12%;
+}
+
+.products-carousel-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* button dots */
+.products-carousel-dots > .react-multi-carousel-dot button{
+    background: #BDBDBD;
+    border: none;
+    margin: 0 7px;
+}
+
+.products-carousel-dots > .react-multi-carousel-dot--active button{
+    background: #F8475F;
+    border: none;
+}
+
+/* carousel */
+
+.products-carousel-item {
+    display: flex;
+    padding: 0 20px;
+}
+
+.products-carousel-item-title {
+    font-size: 12px;
+    text-align: center;
+}
+
+.products-carousel-item-stars {
+    font-size: 12px;
+    text-align: center;
+    color: #F8475F;
+}
+
+.products-carousel-item-listPrice {
+    font-size: 12px;
+    text-align: center;
+}
+
+.products-carousel-item-price {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.products-carousel-item-installments {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media (min-width: 992px) { 
+
+    .products-container {
+        padding: 30px;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .products-title {
+        font-weight: 900;
+    }
+}
